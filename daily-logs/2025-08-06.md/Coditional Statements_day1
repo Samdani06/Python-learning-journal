@@ -1,0 +1,51 @@
+## Today I started my Python journey by diving into conditional statements — a fundamental concept that allows decision-making in code.
+
+## Topics Covered:
+## if statements: Executing code blocks based on a condition.
+
+## elif (else if): Handling multiple conditions.
+
+## else: Catching all cases not handled by if or elif.
+
+## Nested if statements: Using conditional logic inside another condition.
+
+### THE CODES HIGHLIGHTS ARE:
+   # Basic if statement
+a = 80
+b = 55
+if a > b:
+    print("a is greater than b")
+
+# if-elif structure
+a = 20
+b = 20
+if a > b:
+    print("a is greater than b")
+elif a == b:
+    print("a is Equal to b")
+
+# if-elif-else structure
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")
+
+# Nested if statements
+x = 45
+if x > 10:
+    print("Above ten,")
+    if x > 20:
+        print("and also above 20!")
+    else:
+        print("but not above 20.")
+
+###💡 What I Have Learned through todays progress:
+How to control the flow of a Python program using conditional logic.
+
+How Python evaluates each condition in order.
+
+Writing cleaner and more readable decision-based logic.
